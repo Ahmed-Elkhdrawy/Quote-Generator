@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quote Generator</title>
+    <link rel="icon" type="image/svg" href="imgs/favicon.svg">
+    <!-- Style Files -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <!-- JS Files -->
+    <script src="js/all.min.js" defer></script>
+    <script src="js/main.js" defer></script>
+</head>
+<body>
+    <main class="quote-container" id="quote-container">
+        <span class="copy" id="copy" title="Copy The Quote">
+            <i class="fa-regular fa-copy"></i>
+        </span>
+        <span class="copied" id="copied">Copied! &check;</span>
+        <section class="quote-content">
+            <i class="fas fa-quote-left quote-icon"></i>
+            <p id="quote"></p>
+        </section>
+        <section class="quote-author">
+            <span id="author"></span>
+        </section>
+        <section class="container buttons">
+            <button class="twitter-button" id="twitter" title="Tweet This!">
+                <i class="fab fa-twitter"></i>
+            </button>
+            <button class="new-button" id="new-quote" title="New Quote">
+                New Quote
+            </button>
+        </section>
+    </main>
+    <section class="loader" id="loader">
+        <i class="fas fa-quote-left quote-icon"></i>
+    </section>
+    <footer>
+            <a href="https://akhdrawy.wordpress.com/portfolio/"><img src="imgs/favicon.svg" alt=""></a>
+            <a href="https://akhdrawy.wordpress.com/portfolio/">Ahmed Elkhdrawy</a>
+            <span>&copy; 2023</span>
+    </footer>
+</body>
+</html>
